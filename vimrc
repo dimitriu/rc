@@ -9,15 +9,22 @@ set nohlsearch
 set hidden
 set nobackup
 set noswapfile
+set undofile
+set undodir=~/.vim/undodir
 
-set background=dark
+syntax off
 set ruler
 set rulerformat=%=%h%m%r%w\ %(%c%V%),%l/%L\ %P
+"set relativenumber
+"set number
 
 set ts=4 sw=4
 setlocal expandtab
-setlocal autoindent
 setlocal smarttab
-setlocal formatoptions=croql
 
 filetype plugin indent on
+
+if has("autocmd")
+    au BufReadPost *.rkt,*.rktl set filetype=scheme set ts=2 sw=2
+    au FocusLost * silent! wa
+endif
