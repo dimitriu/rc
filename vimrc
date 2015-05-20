@@ -17,6 +17,7 @@ set ruler
 set rulerformat=%=%h%m%r%w\ %(%c%V%),%l/%L\ %P
 "set relativenumber
 "set number
+set scrolloff=4
 
 set ts=4 sw=4
 setlocal expandtab
