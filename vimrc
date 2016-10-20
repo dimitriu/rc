@@ -1,4 +1,5 @@
 set nocompatible
+set backspace=2
 set ttyfast
 set switchbuf=useopen
 set shortmess=atTI
@@ -12,11 +13,11 @@ set noswapfile
 set undofile
 set undodir=~/.vim/undodir
 
-syntax off
+set background=dark
+syntax on
 set ruler
 set rulerformat=%=%h%m%r%w\ %(%c%V%),%l/%L\ %P
-"set relativenumber
-"set number
+set laststatus=2
 set scrolloff=4
 
 set ts=4 sw=4
@@ -26,6 +27,6 @@ setlocal smarttab
 filetype plugin indent on
 
 if has("autocmd")
-    au BufReadPost *.rkt,*.rktl set filetype=scheme set ts=2 sw=2
+    au BufReadPost *.js *.yml *.yaml set ts=2 sw=2
     au FocusLost * silent! wa
 endif
