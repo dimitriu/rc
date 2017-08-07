@@ -1,4 +1,3 @@
-execute pathogen#infect()
 set nocompatible
 set backspace=2
 set ttyfast
@@ -19,20 +18,27 @@ if has('persistent_undo')
     set undofile
 endif
 
-syntax on
-set ruler
-set rulerformat=%=%h%m%r%w\ %(%c%V%),%l/%L\ %P
-set laststatus=2
-set scrolloff=4
-
-set ts=2 sw=2
-setlocal expandtab
-setlocal smarttab
-
-filetype plugin indent on
 if has("autocmd")
     au FocusLost * silent! wa
 endif
 
-set incsearch ignorecase smartcase nohlsearch
+set ts=4
+set sw=4
+set sts=4
+set expandtab
+set incsearch
+set ignorecase
+set smartcase
+set nohlsearch
+set paste
 
+set guioptions-=T
+set guioptions-=m
+set guioptions-=l
+set guioptions-=r
+set guifont=xos4\ Terminus\ 10
+
+filetype plugin indent on
+syntax on
+set background=dark
+colorscheme industry
