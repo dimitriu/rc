@@ -12,12 +12,6 @@ set nobackup
 set noswapfile
 set nowrap
 
-if has('persistent_undo')
-    set undolevels=5000
-    set undodir=~/.vim/undodir
-    set undofile
-endif
-
 if has("autocmd")
     au FocusLost * silent! wa
 endif
