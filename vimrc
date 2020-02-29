@@ -11,11 +11,6 @@ set autowrite
 set nobackup                                                                                                                                                                                                         
 set noswapfile                                                                                                                                                                                                       
 set nowrap                                                                                                                                                                                                           
-                                                                                                                                                                                                                     
-if has("autocmd")                                                                                                                                                                                                    
-    au FocusLost * silent! wa                                                                                                                                                                                        
-endif                                                                                                                                                                                                                
-                                                                                                                                                                                                                     
 set ts=2                                                                                                                                                                                                             
 set sw=2                                                                                                                                                                                                             
 set sts=2                                                                                                                                                                                                            
@@ -33,3 +28,10 @@ colorscheme industry
                                                                                                                                                                                                                      
 au BufRead,BufNewFile Vagrantfile set ft=ruby                                                                                                                                                                        
 au BufRead,BufNewFile Jenkinsfile set ft=groovy
+au FocusLost * silent! wa
+
+xnoremap @ :<C-u>call ExecuteMacroOverVisualRange()<CR>
+function! ExecuteMacroOverVisualRange()
+  echo "@".getcmdline()
+  execute ":'<,'>normal @".nr2char(getchar())
+endfunction
