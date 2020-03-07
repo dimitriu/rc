@@ -1,0 +1,20 @@
+{
+    "breadcrumbs.icons": false,
+    "editor.fontFamily": "'JetBrains Mono', 'Ubuntu Mono', 'Droid Sans Mono', 'monospace', monospace, 'Droid Sans Fallback'",
+    "editor.fontLigatures": true,
+    "editor.suggest.showIcons": false,
+    "explorer.confirmDelete": false,
+    "explorer.confirmDragAndDrop": false,
+    "extensions.ignoreRecommendations": true,
+    "git.autofetch": true,
+    "git.confirmSync": false,
+    "outline.icons": false,
+    "window.menuBarVisibility": "toggle",
+    "window.titleBarStyle": "custom",
+    "window.zoomLevel": 1,
+    "workbench.colorTheme": "Nord",
+    "workbench.editor.restoreViewState": false,
+    "workbench.editor.showIcons": false,
+    "workbench.iconTheme": null,
+    "workbench.startupEditor": "none"
+}
