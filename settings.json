@@ -16,5 +16,10 @@
     "workbench.editor.restoreViewState": false,
     "workbench.editor.showIcons": false,
     "workbench.iconTheme": null,
-    "workbench.startupEditor": "none"
+    "workbench.startupEditor": "none",
+    "terminal.integrated.commandsToSkipShell": [
+        "-workbench.action.toggleSidebarVisibility",
+        "-editor.action.toggleTabFocusMode",
+        "-workbench.action.quickOpen"
+    ]
 }
