@@ -1,3 +1,4 @@
+
 set nocompatible
 set backspace=2
 set ttyfast
@@ -28,7 +29,7 @@ set background=dark
 colorscheme elflord
 
 au BufRead,BufNewFile Vagrantfile set ft=ruby
-au BufRead,BufNewFile Jenkinsfile set ft=groovy
+au BufRead,BufNewFile Jenkinsfile* set ft=groovy
 au FocusLost * silent! wa
 
 xnoremap @ :<C-u>call ExecuteMacroOverVisualRange()<CR>
@@ -36,4 +37,7 @@ function! ExecuteMacroOverVisualRange()
   echo "@".getcmdline()
   execute ":'<,'>normal @".nr2char(getchar())
 endfunction
+
+hi SpecialKey ctermfg=8 guifg=DimGrey
+hi NonText    ctermfg=8 guifg=DimGrey
 

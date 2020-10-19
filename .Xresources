@@ -1,0 +1,35 @@
+Xft.antialias:  true
+Xft.rgba:       rgb
+Xft.hinting:    true
+Xft.hintstyle:  hintslight
+
+*.foreground:   #d0d0d0
+*.background:   #151515
+*.cursorColor:  #d0d0d0
+
+URxvt*color0:   #151515
+URxvt*color8:   #505050
+URxvt*color1:   #ac4142
+URxvt*color9:   #ac4142
+URxvt*color2:   #90a959
+URxvt*color10:  #90a959
+URxvt*color3:   #f4bf75
+URxvt*color11:  #f4bf75
+URxvt*color4:   #6a9fb5
+URxvt*color12:  #6a9fb5
+URxvt*color5:   #aa759f
+URxvt*color13:  #aa759f
+URxvt*color6:   #75b5aa
+URxvt*color14:  #75b5aa
+URxvt*color7:   #d0d0d0
+URxvt*color15:  #f5f5f5
+URxvt*shading:  15
+
+URxvt*font:			xft:JetBrains Mono:pixelsize=22:antialias=true:hinting=true
+URxvt*boldFont:	xft:JetBrains Mono:bold:pixelsize=22:antialias=true:hinting=true
+
+URxvt*scrollBar:				false
+URxvt*scrollBar_right:	false
+URxvt*scrollstyle:			plain
+URxvt*saveLines:				12000
+
