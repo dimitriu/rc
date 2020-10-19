@@ -25,11 +25,11 @@ URxvt*color7:   #d0d0d0
 URxvt*color15:  #f5f5f5
 URxvt*shading:  15
 
-URxvt*font:			xft:JetBrains Mono:pixelsize=22:antialias=true:hinting=true
-URxvt*boldFont:	xft:JetBrains Mono:bold:pixelsize=22:antialias=true:hinting=true
+URxvt*font:     xft:JetBrains Mono:pixelsize=22:antialias=true:hinting=true
+URxvt*boldFont: xft:JetBrains Mono:bold:pixelsize=22:antialias=true:hinting=true
 
-URxvt*scrollBar:				false
-URxvt*scrollBar_right:	false
-URxvt*scrollstyle:			plain
-URxvt*saveLines:				12000
+URxvt*scrollBar:        false
+URxvt*scrollBar_right:  false
+URxvt*scrollstyle:      plain
+URxvt*saveLines:        12000
 
