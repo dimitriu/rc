@@ -1,4 +1,3 @@
-
 set nocompatible
 set backspace=2
 set ttyfast
@@ -21,7 +20,6 @@ set ignorecase
 set smartcase
 set nohlsearch
 set nolist listchars=tab:→\ ,space:·,nbsp:␣,trail:•,eol:¶,precedes:«,extends:»
-set paste
 
 filetype plugin indent on
 syntax on
