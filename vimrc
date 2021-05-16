@@ -47,7 +47,7 @@ endfunction
 
 
 
-" git clone https://github.com/neoclide/coc.nvim.git cd ~/.vim/pack/coc/start
+" git clone https://github.com/neoclide/coc.nvim.git ~/.vim/pack/coc/start
 " coc-rust-analyzer coc-go coc-tsserver coc-vetur
 
 autocmd FileType * let b:coc_suggest_disable = 1
