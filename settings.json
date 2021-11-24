@@ -12,7 +12,6 @@
     "window.menuBarVisibility": "toggle",
     "window.titleBarStyle": "custom",
     "window.zoomLevel": 1,
-    "workbench.colorTheme": "Nord",
     "workbench.editor.restoreViewState": false,
     "workbench.editor.showIcons": false,
     "workbench.iconTheme": null,
